@@ -13,6 +13,7 @@ const Results = ({ pets }) => {
             name={pet.name}
             images={pet.images}
             location={`${pet.city}, ${pet.state}`}
+            id={pet.id}
             key={pet.id}
           />
         ))
@@ -21,4 +22,4 @@ const Results = ({ pets }) => {
   );
 };
 
-export default Results
+export default Results;
